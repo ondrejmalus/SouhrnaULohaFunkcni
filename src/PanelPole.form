@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="PanelPole">
+  <grid id="27dc6" binding="panel" layout-manager="GridLayoutManager" row-count="5" column-count="4" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="31" y="16" width="451" height="353"/>
+    </constraints>
+    <properties>
+      <background color="-11059136"/>
+      <foreground color="-15058601"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="9b699" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-51661"/>
+          <foreground color="-13284123"/>
+          <text value="Jméno:"/>
+        </properties>
+      </component>
+      <component id="efa65" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-51661"/>
+          <foreground color="-13284123"/>
+          <text value="vlastní hru?:"/>
+        </properties>
+      </component>
+      <component id="6c61b" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-51661"/>
+          <foreground color="-13284123"/>
+          <text value="Hodnocení hry:"/>
+        </properties>
+      </component>
+      <component id="c3614" class="javax.swing.JTextField" binding="txtName" default-binding="true">
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="3" vsize-policy="0" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-16777216"/>
+          <foreground color="-328650"/>
+        </properties>
+      </component>
+      <component id="786c2" class="javax.swing.JRadioButton" binding="RB1" default-binding="true">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-16777216"/>
+          <foreground color="-328650"/>
+          <text value="1"/>
+        </properties>
+      </component>
+      <component id="cd3f2" class="javax.swing.JRadioButton" binding="RB2" default-binding="true">
+        <constraints>
+          <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-16777216"/>
+          <foreground color="-328650"/>
+          <text value="2"/>
+        </properties>
+      </component>
+      <component id="d35e5" class="javax.swing.JRadioButton" binding="RB3" default-binding="true">
+        <constraints>
+          <grid row="2" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-16777216"/>
+          <foreground color="-328650"/>
+          <text value="3"/>
+        </properties>
+      </component>
+      <component id="cbee7" class="javax.swing.JButton" binding="prevBtn">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="100" height="25"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-51661"/>
+          <text value="Předchozí"/>
+        </properties>
+      </component>
+      <component id="dcbfd" class="javax.swing.JCheckBox" binding="CBOwned" default-binding="true">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-16777216"/>
+          <foreground color="-328650"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="52063" class="javax.swing.JButton" binding="saveBtn">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="4" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="250" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-51661"/>
+          <text value="Uložit"/>
+        </properties>
+      </component>
+      <component id="a4732" class="javax.swing.JButton" binding="nxtBtn">
+        <constraints>
+          <grid row="3" column="2" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="100" height="25"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-51661"/>
+          <text value="Další"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
